@@ -1,0 +1,16 @@
+[plugins.opt]
+path = "/volume1/k3s/agent/containerd"
+
+[debug]
+        level = "debug"
+
+[plugins.cri.containerd]
+snapshotter = "native"
+
+[plugins.cri]
+stream_server_address = "127.0.0.1"
+stream_server_port = "10010"
+  [plugins.cri.cni]
+    bin_dir = "/volume1/k3s/data/d4f98b2da1abb7c68677600aa20f0b207b7bd6614825307f0c6684cb84a6abed/bin"
+    conf_dir = "/volume1/k3s/agent/etc/cni/net.d"
+
