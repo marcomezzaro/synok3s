@@ -40,9 +40,9 @@ case "$1" in
                 exit
                 ;;
         stop)
-		        exit
-		        ;;
-*)
+		exit
+		;;
+        *)
                 # Help message.
                 echo "Usage: $0 start"
                 exit 1
