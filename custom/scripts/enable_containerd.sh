@@ -56,10 +56,10 @@ case "$1" in
                 exit
                 ;;
         stop)
-		        stop
-				exit
-		        ;;
-		*)
+		stop
+		exit
+	        ;;
+	*)
                 # Help message.
                 echo "Usage: $0 start stop"
                 exit 1
