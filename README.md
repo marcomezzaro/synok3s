@@ -1,5 +1,7 @@
-# synok3s
-## k3s on synology dsm
+# Synok3s
+## K3S on Synology ds218
+
+Based on: https://medium.com/@marco.mezzaro/k3s-on-synology-what-if-it-works-e980b4b09fcb
 
 ## Compile missing kernel modules
 
