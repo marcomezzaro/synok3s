@@ -25,10 +25,10 @@ case "$1" in
         stop)
                 exit
                 ;;
-		*)
-				# Help message.
-				echo "Usage: $0 start stop"
-				exit 1
-				;;
+	*)
+		# Help message.
+		echo "Usage: $0 start stop"
+		exit 1
+		;;
 esac
 
