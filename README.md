@@ -61,3 +61,9 @@ find . -iname "*.ko" -type f
 copy the kernel modules in /lib/modules on synology machine. `DO NOT OVERWRITE` already present modules.
 use insmod command to load.
 for troubleshooting check dmesg for errors.
+
+
+## Links
+
+- http://billauer.co.il/blog/2013/10/version-magic-insmod-modprobe-force/
+- https://stackoverflow.com/questions/9341701/cross-compiling-a-kernel-module-invalid-module-format
